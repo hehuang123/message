@@ -1,4 +1,4 @@
-package njust.se2.librarymanagementsystemweb.result;
+package njust.cs1.messagesystem.result;
 
 public class Result {
     //响应码

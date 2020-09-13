@@ -1,10 +1,10 @@
-package njust.se2.librarymanagementsystemweb.service;
+package njust.cs1.messagesystem.service;
 
-import njust.se2.librarymanagementsystemweb.pojo.Category;
+import njust.cs1.messagesystem.dao.CategoryDao;
+import njust.cs1.messagesystem.pojo.Category;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-import njust.se2.librarymanagementsystemweb.dao.CategoryDao;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package njust.se2.librarymanagementsystemweb.dao;
+package njust.cs1.messagesystem.dao;
 
-import njust.se2.librarymanagementsystemweb.pojo.User;
+import njust.cs1.messagesystem.pojo.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -8,7 +8,6 @@ import org.springframework.stereotype.Repository;
 
 public interface UserDao extends JpaRepository<User, Integer> {
     User findByUsername(String username);
-
     User getByUsernameAndPassword(String username, String password);
 }
 

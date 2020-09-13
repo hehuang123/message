@@ -1,6 +1,6 @@
-package njust.se2.librarymanagementsystemweb.interceptor;
+package njust.cs1.messagesystem.interceptor;
 
-import njust.se2.librarymanagementsystemweb.pojo.User;
+import njust.cs1.messagesystem.pojo.User;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.web.servlet.HandlerInterceptor;
 

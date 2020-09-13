@@ -1,7 +1,7 @@
-package njust.se2.librarymanagementsystemweb.service;
+package njust.cs1.messagesystem.service;
 
-import njust.se2.librarymanagementsystemweb.dao.UserDao;
-import njust.se2.librarymanagementsystemweb.pojo.User;
+import njust.cs1.messagesystem.dao.UserDao;
+import njust.cs1.messagesystem.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

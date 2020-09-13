@@ -1,4 +1,4 @@
-package njust.se2.librarymanagementsystemweb.pojo;
+package njust.cs1.messagesystem.pojo;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

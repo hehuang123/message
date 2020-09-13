@@ -1,7 +1,7 @@
-package njust.se2.librarymanagementsystemweb.controller;
+package njust.cs1.messagesystem.controller;
 
-import njust.se2.librarymanagementsystemweb.pojo.Book;
-import njust.se2.librarymanagementsystemweb.service.BookService;
+import njust.cs1.messagesystem.service.BookService;
+import njust.cs1.messagesystem.pojo.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,4 +1,4 @@
-package njust.se2.librarymanagementsystemweb.controller;
+package njust.cs1.messagesystem.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,7 +1,7 @@
-package njust.se2.librarymanagementsystemweb.dao;
+package njust.cs1.messagesystem.dao;
 
-import njust.se2.librarymanagementsystemweb.pojo.Book;
-import njust.se2.librarymanagementsystemweb.pojo.Category;
+import njust.cs1.messagesystem.pojo.Book;
+import njust.cs1.messagesystem.pojo.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

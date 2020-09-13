@@ -1,13 +1,13 @@
-package njust.se2.librarymanagementsystemweb;
+package njust.cs1.messagesystem;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LibrarymanagementsystemWebApplication {
+public class MessageSystemApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(LibrarymanagementsystemWebApplication.class, args);
+        SpringApplication.run(MessageSystemApplication.class, args);
     }
 
 }

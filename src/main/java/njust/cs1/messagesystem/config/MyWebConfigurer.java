@@ -1,6 +1,6 @@
-package njust.se2.librarymanagementsystemweb.config;
+package njust.cs1.messagesystem.config;
 
-import njust.se2.librarymanagementsystemweb.interceptor.LoginInterceptor;
+import njust.cs1.messagesystem.interceptor.LoginInterceptor;
 import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.servlet.config.annotation.*;

@@ -1,4 +1,4 @@
-package njust.se2.librarymanagementsystemweb;
+package njust.cs1.messagesystem;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,7 +15,7 @@ import java.sql.SQLException;
 
 @SpringBootTest
 @Component
-public class LibrarymanagementsystemWebApplicationTests {
+public class MessageSystemApplicationTests {
     @Autowired
     DataSource datasource;
     @Test

@@ -1,8 +1,8 @@
-package njust.se2.librarymanagementsystemweb.controller;
+package njust.cs1.messagesystem.controller;
 
-import njust.se2.librarymanagementsystemweb.pojo.User;
-import njust.se2.librarymanagementsystemweb.result.Result;
-import njust.se2.librarymanagementsystemweb.service.UserService;
+import njust.cs1.messagesystem.pojo.User;
+import njust.cs1.messagesystem.result.Result;
+import njust.cs1.messagesystem.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.HtmlUtils;
