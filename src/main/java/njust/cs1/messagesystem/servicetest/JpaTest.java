@@ -1,6 +1,7 @@
 package njust.cs1.messagesystem.servicetest;
 
 import njust.cs1.messagesystem.pojo.User;
+import njust.cs1.messagesystem.service.MessageService;
 import njust.cs1.messagesystem.service.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,11 +14,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class JpaTest {
 
     @Autowired
-    private UserService userService;
+    private MessageService messageService;
 
     @Test
     public void get(){
-        User user = userService.getByName("xyz");
-        System.out.println(user.getPassword());
+        System.out.println(messageService.getMessage());
     }
 }

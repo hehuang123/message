@@ -18,7 +18,7 @@ public class MyWebConfigurer implements WebMvcConfigurer {
     }
 
     /**
-     * 拦截除index.html的所有路径
+     * 拦截除home.html的所有路径
      * @param registry 映射截取程序列表
      */
     @Override
