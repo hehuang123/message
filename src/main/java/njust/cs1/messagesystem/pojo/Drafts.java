@@ -3,16 +3,13 @@ package njust.cs1.messagesystem.pojo;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import javax.persistence.*;
-import javax.xml.crypto.Data;
 import java.util.Date;
 
 @Entity
 @Table(name = "drafts")
 @JsonIgnoreProperties
-
-
-
-public class Drafts {
+public
+class Drafts {
 
     @Id
     @GeneratedValue
