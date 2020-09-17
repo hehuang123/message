@@ -25,7 +25,7 @@ public class Message {
     String sendname;
     String text;
     String title;
-    Boolean read;
+    int readsign;
 
     public int getId() {
         return id;
@@ -75,12 +75,12 @@ public class Message {
         this.title = title;
     }
 
-    public Boolean getRead() {
-        return read;
+    public int getReadsign() {
+        return readsign;
     }
 
-    public void setRead(Boolean read) {
-        this.read = read;
+    public void setReadsign(int readsign) {
+        this.readsign = readsign;
     }
 
 }

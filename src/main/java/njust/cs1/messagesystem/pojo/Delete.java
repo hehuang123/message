@@ -1,25 +1,26 @@
 package njust.cs1.messagesystem.pojo;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import njust.cs1.messagesystem.dao.MessageDao;
 
 import javax.persistence.*;
 import javax.xml.crypto.Data;
-import java.util.Date;
+import java.sql.Date;
 
 @Entity
-@Table(name = "drafts")
+@Table(name = "delete")
 @JsonIgnoreProperties
 
 
 
-public class Drafts {
+public class Delete {
 
     @Id
     @GeneratedValue
-    @Column(name = "id")
+    @Column(name="id")
     int id;
 
-    java.util.Date expectedsendtime;
+    Date sendtime;
     String receivename;
     String sendname;
     String text;
@@ -34,12 +35,12 @@ public class Drafts {
         this.id = id;
     }
 
-    public java.util.Date getExpectedsendtime() {
-        return expectedsendtime;
+    public Date getSendtime() {
+        return sendtime;
     }
 
-    public void setExpectedsendtime(Date expectedsendtime) {
-        this.expectedsendtime = expectedsendtime;
+    public void setSendtime(Date sendtime) {
+        this.sendtime = sendtime;
     }
 
     public String getReceivename() {
@@ -81,6 +82,5 @@ public class Drafts {
     public void setReadsign(int readsign) {
         this.readsign = readsign;
     }
-
 
 }
